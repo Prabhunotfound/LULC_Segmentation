@@ -74,7 +74,7 @@ conda install --file requirements.txt
 - `utils/helper.py` - A centralized script containing shared utility functions and class definitions used across the notebooks.
 - `visualizations/` - Stores generated output patches and classification results for visual inspection.
 
----
+----
 
 ## Execution Order
 Execute the notebooks in the following sequence:
@@ -84,3 +84,5 @@ Execute the notebooks in the following sequence:
 | 1 | `Preprocessing.ipynb` | Handles initial data downloading, cleaning, and coordinate transformations using `rasterio` and `rioxarray`. |
 | 2 | `Data_Preparation.ipynb` | Performs patch generation from large satellite tiles and applies data augmentation techniques to enhance training diversity. |
 | 3 | `Model.ipynb` | Defines the neural network architecture, manages the training loop, and evaluates performance metrics like Accuracy, IoU, Dice, etc.|
+
+ **Note :** This Project was developed as a part of the Course Work of DAT-103 
